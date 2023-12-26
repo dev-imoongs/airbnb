@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Data
 public class AccommodationVO {
+
     private Long id;
 
     private String mainName;
@@ -22,16 +23,16 @@ public class AccommodationVO {
 
     private int numberOfBed;
 
-    private String bedType;
+    private String bedtype;
 
-    private String bedIcon;
+    private String bedicon;
 
     private String amenities;
 
     private String accommodationPhoto;
 
     private String accommodationPhone;
-// 위도, 경도 2개로 나눠야 할듯
+
     private float geometry;
 
     private String address;
@@ -54,7 +55,7 @@ public class AccommodationVO {
 
     private String instantBook;
 
-    private String  cancellationPolicy;
+    private String cancellation_policy;
 
     private Long memberId;
 
