@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.airbnb.backend.mapper.AccommodationDetailMapper">
+    // 해당 id의 게시글을 조회해서 데이터 가져오는
+    <select id="select" resultType="AccommodationVO">
+        SELECT ACCOMMODATION.ID, ~~~~~
+        FROM ACCOMMODATION
+        ON ACCOMMODATION.ID = #{id}
+    </select>
+    // 예약 insert가 있어야함
+</mapper>
